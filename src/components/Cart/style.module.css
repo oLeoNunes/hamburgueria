@@ -1,0 +1,70 @@
+.cart {
+  width: 20rem;
+}
+.header {
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 10vh;
+}
+
+.containerCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+}
+.containerCartVazio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  height: 12rem;
+}
+
+.cartTotal {
+  height: 6rem;
+  width: 100%;
+  border-top: 2px solid #e0e0e0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.cartTotal section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.cartTotal button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 90%;
+  height: 3rem;
+  cursor: pointer;
+}
